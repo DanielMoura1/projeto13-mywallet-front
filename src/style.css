@@ -1,0 +1,154 @@
+
+body{
+    background: rgb(140, 17, 190);
+}
+.quadro{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.textocor{
+    color:white;
+}
+.quadro2{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.input{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 20px;
+    height: 30px;
+    width: 250px;
+    
+}
+.input1{
+    margin-bottom: 15px;
+    border-radius: 4px;
+    height: 20px;
+    height: 30px;
+    width: 250px;
+    background:#A328D6;
+    color: white;
+}
+.tela{
+    position: relative;
+    background: white;
+    height: 350px;
+    width: 300px;
+    border-radius: 4px;
+    overflow-y:scroll;
+}
+.sinal{
+    position: absolute;
+	right: 90px;
+	bottom: 65px;
+    color: white;
+}
+.sinal2{
+    position: absolute;
+	right: 90px;
+	bottom: 56px;
+    color: white;
+    font-size: 40px;
+}
+.circulo{
+    position: absolute;
+	right: 85.5px;
+	bottom: 61px;
+}
+.text{
+    position: absolute;
+	left: 10px;
+	bottom: 10px;
+    color: white;
+}
+
+.red{
+    color:red; 
+    margin-right: 10px;
+}
+.green{
+    color: green;
+    margin-right: 10px;
+}
+.data{
+    color: gray;
+    margin-right: 5px;
+}
+.total{
+    position: absolute;
+	right: 10px;
+	bottom: 30px;
+    color: green;
+}
+.saldo{
+    position: absolute;
+	right: 220px;
+	bottom: 30px;
+
+}
+.caixa{
+    display: flex;
+}
+.caixa2{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ola{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.ola2{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.entrada{
+     position: relative;
+    background: #A328D6;
+  
+    height: 90px;
+    width: 120px;
+    margin-top: 40px;
+    margin-right: 30px;
+    border-radius: 4px;
+
+}
+.entrada1{
+    position: relative;
+   background: #A328D6;
+ 
+   height: 90px;
+   width: 120px;
+   margin-top: 40px;
+   margin-left: 30px;
+   border-radius: 4px;
+}
+.fechar{
+    display: none;  
+}
+.abrir{
+    position: absolute;
+	right: 0px;
+	bottom: 0px;
+    border-radius: 4px;
+    background: white;
+    height: 350px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
