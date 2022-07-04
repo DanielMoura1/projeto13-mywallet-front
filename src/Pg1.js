@@ -60,7 +60,7 @@ export default function Pg1(props){
        </div>
        
        <div className="quadro">
-        
+         
           <div className="tela">
             <div className="saldo"><p>SALDO</p></div>
           <div className="total"> <p>{valor}</p></div>
