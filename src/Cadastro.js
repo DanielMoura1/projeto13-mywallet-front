@@ -20,7 +20,8 @@ export default function Cadastro(){
                alert('deu ruim meu amigo __-')
           }
 
-   
+   //
+   //https://mywalletok.herokuapp.com
           
      }
     return (
