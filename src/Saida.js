@@ -13,7 +13,7 @@ export default function Saida(props){
      e.preventDefault();
      try{
           const valor2 =parseFloat(valor)
-          await axios.post('http://localhost:5000/menos',{
+          await axios.post('https://mywalletok.herokuapp.com/menos',{
                valor:valor2,desc,token
           })
          

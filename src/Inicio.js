@@ -12,7 +12,7 @@ export default function Inicio(props){
     async function login(e){
      e.preventDefault();
      try{
-          const resposta=await axios.post('http://localhost:5000/login',{
+          const resposta=await axios.post('https://mywalletok.herokuapp.com/login',{
                email,senha
           })
         

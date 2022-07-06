@@ -17,7 +17,7 @@ export default function Pg1(props){
     useEffect(() => {
      async function getpg1(){
       try{
-         const promessa=await axios.get('http://localhost:5000/tela1',{headers: {
+         const promessa=await axios.get('https://mywalletok.herokuapp.com/tela1',{headers: {
             User: token
           }})
          
@@ -42,7 +42,7 @@ export default function Pg1(props){
       }, []);
       async function sair(){
          try{
-            const promessa=await axios.get('http://localhost:5000/sair',{headers: {
+            const promessa=await axios.get('https://mywalletok.herokuapp.com/sair',{headers: {
                User: token
              }})
              navigate("/")

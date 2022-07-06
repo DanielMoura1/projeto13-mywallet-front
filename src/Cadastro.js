@@ -11,7 +11,7 @@ export default function Cadastro(){
      async function criar(e){
           e.preventDefault();
           try{
-               await axios.post('http://localhost:5000/criar',{
+               await axios.post('https://mywalletok.herokuapp.com/criar',{
                     nome,email,senha,senha2
                })
                alert('Cadastrado com sucesso !')
@@ -21,7 +21,7 @@ export default function Cadastro(){
           }
 
    //
-   //https://mywalletok.herokuapp.com
+   //https://mywalletok.herokuapp.com/
           
      }
     return (

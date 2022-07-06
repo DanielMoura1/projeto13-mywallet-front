@@ -13,7 +13,7 @@ export default function Entrada(props){
      e.preventDefault();
      try{
           const valor2 =parseFloat(valor)
-          await axios.post('http://localhost:5000/somar',{
+          await axios.post('https://mywalletok.herokuapp.com/somar',{
                valor:valor2,desc,token
           })
          
