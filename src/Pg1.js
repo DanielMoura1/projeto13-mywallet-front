@@ -20,8 +20,6 @@ export default function Pg1(props){
          const promessa=await axios.get('https://mywalletok.herokuapp.com/tela1',{headers: {
             User: token
           }})
-         
-       
          setValor(promessa.data.total)
          setNome(promessa.data.nome)
          setCaixa([...promessa.data.msg])
