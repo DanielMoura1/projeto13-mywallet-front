@@ -33,9 +33,9 @@ export default function Cadastro(){
             <input type={'text'} value={nome} placeholder='Nome' onChange={(e) => setNome(e.target.value)} className="input"></input>
             <input type={'text'} value={email} placeholder='Email' onChange={(e) => setEmail(e.target.value)} className="input"></input>
             <input type={'password'} value={senha} placeholder='senha' onChange={(e) => setSenha(e.target.value)} className="input"></input>
-            <input type={'password'} value={senha2} placeholder='confirma a senha' onChange={(e) => setSenha2(e.target.value)} className="input"></input>
+            <input type={'password'} value={senha2} placeholder='confirme a senha' onChange={(e) => setSenha2(e.target.value)} className="input"></input>
             <div className="caixa">
-            <button  className="input1" type="subimit" onClick={criar}>Entrar</button>
+            <button  className="input1" type="subimit" onClick={criar}>Cadastrar</button>
             </div>
          
             </form>

@@ -31,7 +31,7 @@ export default function Saida(props){
                <div className="quadro">
                     <input type={'number'} value={valor} placeholder='Valor' onChange={(e) => setValor(e.target.value)} className="input"></input>
                     <input type={'text'} value={desc} placeholder='Descrição' onChange={(e) => setDesc(e.target.value)} className="input"></input>
-                    <button type="subimit" className="input1" onClick={menos} >Entrar</button>
+                    <button type="subimit" className="input1" onClick={menos} >Salvar saída</button>
                </div>
           </form>
           
